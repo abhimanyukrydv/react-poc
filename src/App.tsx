@@ -1,9 +1,15 @@
+import Login, {Sighnup, HomePage, UserKey} from "./UserComponents" // Default import cant be imported unde curly braces
+
 function App() { // Primary component
   return (
     <div>
       <h1>Hello, World!</h1>
       <h1>The sum is: {sum()}</h1>
       <Fruit />
+      <Login />
+      <Sighnup />
+      <HomePage />
+      <h2>User Key: {UserKey}</h2>
     </div>
   )
 }
@@ -23,4 +29,4 @@ export default App
 //TSX files use TypeScript syntax along with JSX
 // React components can be functional (like above) or class-based (less common now)
 // React components must be exported to be used in other files
-
+// Exporting default allows importing without curly braces in other files
