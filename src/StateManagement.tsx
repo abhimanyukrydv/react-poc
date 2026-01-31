@@ -4,8 +4,8 @@ import {useState} from 'react';
 const dummyName = "Abhimanyu";
 
 function StaterManagement() {
-    const [count, setCount] = useState<number>(0);
-    const [name, setName] = useState<string>(dummyName);
+    const [count, setCount] = useState<number>(0); // Initializing count state with 0
+    const [name, setName] = useState<string>(dummyName); // Initializing name state with dummyName
   return (
 
     <div>
