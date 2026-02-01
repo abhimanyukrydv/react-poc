@@ -13,7 +13,7 @@ function ClockComponents() {
             <div>
                 <label>
                     Pick color:
-                    <select value={color} onChange={(e) => setColor(e.target.value)} >
+                    <select value={color} onChange={(e) => setColor(e.target.value)} > // added onChange handler
                         <option style={{ color: "red" }} value="red">Red</option>
                         <option style={{ color: "green" }} value="green">Green</option>
                         <option style={{ color: "yellow" }} value="yellow">Yellow</option>

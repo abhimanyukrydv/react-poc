@@ -5,13 +5,15 @@ import App from './App.tsx'
 import StaterManagement from './StateManagement.tsx'
 import HideAndShow from './toggle/HideAndShow.tsx'
 import ClockComponents from './clock/ClockComponents.tsx'
+import NestedLoop from './nestedLoop/NestedLoop.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     {/* <App /> */}
     {/* <StaterManagement /> */}
     {/* <HideAndShow /> */}
-  <ClockComponents />
+  {/* <ClockComponents /> */}
+  <NestedLoop />
 
   </StrictMode>,
 )
